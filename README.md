@@ -1,5 +1,4 @@
-# Handwritten-Captcha-Recognition
-## This is a repository having source code of Handwritten Captcha Recognition using EMNIST Dataset.
+# Handwritten-Captcha-Solver
 ## _____________________________________________
 
 I have trained this model using EMNIST Bymerge Dataset having 814,255 Images in total and 47 Classes. Some of the upper and lower case characters are identified as same to increase the accuracy of my model. This dataset has about 6.98 lakhs Training and 1.12 lakhs Testing Images. I got a Accuracy of 92% on my Training dataset and 90.76% on my Testing Dataset.
@@ -49,9 +48,8 @@ Create a virtual anaconda environment. Use only Python 3.5 or 3.6 .
 Activate Virtual Environment:
 #### conda activate <env name>
 Clone the Repo.
-#### git clone https://github.com/adipro7/Handwritten-Captcha-Recognition.git
 Go to the location of your cloned repo.
-#### cd Handwritten-Captcha-Recognition
+#### cd Handwritten-Captcha-Solver
 Install requirements:
 #### pip install requirements.txt
 Please note that I had install ROS in the same environment so some errors may arise due to this. Kindly remove all those files creating the errors from requirements.txt .
